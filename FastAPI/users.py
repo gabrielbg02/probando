@@ -63,6 +63,7 @@ def borrar (id : int):
         if saved_user.id == id: 
             del users_list [index]
         found = True
+        return {"ELIMINADO CORRECTAMENTE!"}
     if not found:
         return {"ERROR" : "EL USUARIO NO SE HA ELIMINADO"}
    

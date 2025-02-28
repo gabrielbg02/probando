@@ -19,7 +19,7 @@ def procesar_formulario():
     with open(ruta_archivo, 'a') as archivo:
         archivo.write(datos_guardar + "\n\n")
 
-    return "Datos guardados correctamente"
+    return "Datos correctamente"
 
 if __name__ == '__main__':
     app.run(debug=True)
